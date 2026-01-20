@@ -1,0 +1,75 @@
+/* 1. Font Smoothing untuk tampilan Premium */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 2. Gradasi Hero (Rivian Style) */
+.hero-gradient {
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 0.7) 20%,
+        rgba(0, 0, 0, 0.3) 50%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+/* 3. Styling Warna Emas STT Candra Sedana */
+.text-stt-gold {
+    color: #C5A059;
+}
+
+.bg-stt-gold {
+    background-color: #C5A059;
+}
+
+.border-stt-gold {
+    border-color: #C5A059;
+}
+
+/* 4. Efek Glassmorphism pada Navbar */
+.nav-glass {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* 5. Custom Swiper (Slider) */
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.swiper-pagination-bullet-active {
+    background: #C5A059 !important;
+    width: 25px !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease;
+}
+
+/* 6. Animasi Hover Gambar */
+.img-zoom {
+    transition: transform 1.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.img-zoom:hover {
+    transform: scale(1.1);
+}
+
+/* 7. Drop Shadow untuk Teks di atas Gambar */
+.text-shadow-premium {
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* 8. Responsivitas untuk Layar Kecil */
+@media (max-width: 768px) {
+    .hero-gradient {
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0.5) 100%
+        );
+    }
+}
