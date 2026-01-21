@@ -7,7 +7,7 @@
         <span></span>
     </button>
 
-    <div class="hidden md:flex space-x-6 text-xs font-bold tracking-widest uppercase">
+    <div class="hidden md:flex gap-8 text-xs font-bold tracking-widest uppercase">
         <a href="#profil" class="hover:text-[#C5A059] transition">Profil</a>
         <a href="#kegiatan" class="hover:text-[#C5A059] transition">Kegiatan</a>
         <a href="#struktur" class="hover:text-[#C5A059] transition">Struktur</a>
